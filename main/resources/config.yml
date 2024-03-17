@@ -1,0 +1,17 @@
+# Example:
+# Players:
+#   PlayerUUID: Element
+# Trusted:
+#   TrustingPlayerUUID: TrustedPlayerUUID
+# Energy:
+#   PlayerUUID: EnergyAmount
+# Lives:
+#   PlayerUUID: LivesAmount
+
+Players:
+
+Trusted:
+
+Energy:
+
+Lives:

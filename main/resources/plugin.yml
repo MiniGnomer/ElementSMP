@@ -1,0 +1,26 @@
+name: ElementSMP
+version: '${project.version}'
+main: me.minignomer.elementsmp.ElementSMP
+api-version: 1.20
+authors: [MiniGnomer]
+description: Element SMP Plugin
+commands:
+  trust:
+    usage: /<command> <player>
+  element:
+    usage: /<command> <set/randomize> <player>
+    permission: elementsmp.element
+  lives:
+    usage: /<command> <add/set/remove> <player> <amount>
+    permission: elementsmp.lives
+  energy:
+    usage: /<command> <add/set/remove> <player> <amount>
+    permission: elementsmp.energy
+  get:
+    usage: /<command> <item>
+    permission: elementsmp.get
+  event:
+    usage: /<command> <eventname>
+    permission: elementsmp.event
+  report:
+    usage: /<command>
