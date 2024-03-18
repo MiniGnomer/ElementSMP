@@ -126,5 +126,6 @@ public final class ElementSMP extends JavaPlugin {
         getCommand("get").setExecutor(new GetCommand());
         getCommand("get").setTabCompleter(new GetTabCompleter());
         getCommand("report").setExecutor(new ReportCommand());
+        getCommand("withdraw").setExecutor(new WithdrawCommand());
     }
 }

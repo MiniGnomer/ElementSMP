@@ -24,3 +24,5 @@ commands:
     permission: elementsmp.event
   report:
     usage: /<command>
+  withdraw:
+    usage: /<command> <amount>
